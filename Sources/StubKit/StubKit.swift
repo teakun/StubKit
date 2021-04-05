@@ -45,7 +45,7 @@ public struct Stub<T: Decodable> {
                 primaryProvider: BuiltinStubProvider(),
                 providers: provider
             ),
-            context: .init(maxSequenceLength: 2, maxDepth: 2)
+            context: .init(maxSequenceLength: 0, maxDepth: 2)
         )
     }
 
